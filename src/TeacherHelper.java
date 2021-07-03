@@ -57,6 +57,8 @@ public class TeacherHelper {
                 case 3:
 
                     switch(gerador.nextInt(7)) {
+                        case 0:
+                            System.out.println("Radom escolheu o zero");
                         case 1:
                             System.out.println("Você é um professor incrível!");
                             break;
@@ -75,7 +77,6 @@ public class TeacherHelper {
                         case 6:
                             System.out.println("Obrigado por se colocar à disposição do saber!");
                             break;
-
                     }
 
                     break;
